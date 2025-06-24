@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+
+@theme {
+  --font-alum : "Alumni Sans SC",' sans-serif';
+}
+
+@theme {
+  --font-anton :  "Anton", 'sans-serif';
+}
+
+@theme {
+  --font-great :  "Great Vibes", 'cursive';
+}
+
+
+
+
+  /* .fade-shadow-right::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 530px;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(23,23,23,5) 100%);
+    pointer-events: none;
+    margin-right: -41px;
+  } */
+
+  .fade-shadow-right::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 465px;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(23, 23, 23, 0.9) 100%);
+  pointer-events: none;
+  margin-right: -41px;
+  display: none; /* default: hidden */
+}
+
+@media (min-width: 1024px) { /* Tailwind's lg breakpoint */
+  .fade-shadow-right::after {
+    display: block; /* only visible on lg and above */
+  }
+}
+
+
+
+
+#img {
+  filter: drop-shadow(1px 1px 11px black);
+}
