@@ -6,7 +6,7 @@ function About() {
    <div id='about' className='h-screen flex justify-center items-center bg-transparent'>
     <section class="py-8 sm:py-12 md:py-16">
   <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex flex-col lg:flex-row items-center gap-8 md:gap-12">
+    <div class="flex flex-col-reverse lg:flex-row items-center gap-8 md:gap-12">
 
       <div class="w-full lg:w-1/3">
         <div class="relative overflow-hidden rounded-lg shadow-xl mx-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-full">
