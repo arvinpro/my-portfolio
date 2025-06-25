@@ -22,7 +22,7 @@ function About() {
       
 
       <div class="w-full lg:w-2/3">
-        <h2 class=" text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-4 sm:mb-6 ">
+        <h2 class=" text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-5 sm:mb-6 ">
           About <span class="text-indigo-600 dark:text-indigo-400">Me</span>
         </h2>
         
